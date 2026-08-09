@@ -6,220 +6,133 @@
 
 AnalystLab Africa Consulting was engaged by ABC Communications Ltd to investigate customer churn and provide business insights that support customer retention strategies.
 
-This project explores and analyses customer data to identify trends and patterns associated with customer churn and retention. The findings are presented through professional visualisations, a business analytics report and actionable business recommendations.
+This project analyses customer data to identify patterns, behaviors and characteristics associated with customer churn. The analysis combines data inspection, Excel-based business intelligence, visualization and business reporting to translate customer data into actionable recommendations.
 
 ---
 
 ## Business Problem
 
-ABC Communications Ltd needs to understand customer churn and identify the customer characteristics and behaviours associated with customers leaving the business in order to develop more effective customer retention strategies.
+ABC Communications Ltd needs to understand:
 
-## Business Objective
+- Which customers are most likely to churn?
+- What customer characteristics and behaviours are associated with churn?
+- Which services or customer segments experience higher churn?
+- What factors may be contributing to customer attrition?
+- What actions can the business take to improve customer retention?
 
-To analyse customer churn data, identify trends and patterns associated with customer retention, and provide actionable insights and recommendations that support customer retention and business decision-making.
-
----
-
-## Business Questions
-
-The analysis addresses six key business questions:
-
-1. Who are our customers?
-2. Which customer segments have the highest churn?
-3. Does contract type influence retention?
-4. Does customer tenure influence retention?
-5. Which service features are associated with churn?
-6. Which payment methods have higher churn?
+The objective is to identify meaningful churn patterns and provide practical recommendations that can support data-driven customer retention decisions.
 
 ---
 
-## Dataset
+## Project Objective
 
-The analysis covers **7,043 customer records** containing information relating to:
+The project aims to:
 
-- Customer demographics
-- Contract type
+1. Inspect and assess the quality of the customer dataset.
+2. Analyze customer churn patterns and key customer characteristics.
+3. Identify important factors associated with customer churn.
+4. Develop business-focused KPIs and visualizations.
+5. Communicate findings through a structured business analytics report.
+6. Provide actionable recommendations for improving customer retention.
+
+---
+
+## Project Deliverables
+
+### 01. Business Analytics Report
+
+A detailed business-focused analysis presenting the major findings, churn insights, business implications and recommended retention strategies.
+
+[View Business Analytics Report](business-analytics-report/)
+
+---
+
+### 02. Excel Workbook
+
+The analytical workbook containing the customer churn analysis, data summaries, PivotTables, PivotCharts, KPI analysis and customer churn dashboard.
+
+[View Excel Workbook](excel-workbook/)
+
+---
+
+### 03. Business Presentation
+
+An executive-level presentation summarizing the key findings, business implications and recommended actions for customer retention.
+
+[View Business Presentation](business-presentation/)
+
+---
+
+### 04. Dataset Inspection Report
+
+A structured assessment of the dataset covering its structure, data quality, completeness and initial observations before the main analysis.
+
+[View Dataset Inspection Report](dataset-inspection-report/)
+
+---
+
+## Analytical Approach
+
+The project follows a structured analytical workflow:
+
+**Dataset Inspection → Data Analysis → KPI & Dashboard Development → Business Insights → Recommendations**
+
+The analysis focuses on understanding customer behaviour and translating analytical findings into practical business decisions.
+
+---
+
+## Key Areas of Analysis
+
+- Customer churn rate
+- Customer retention
+- Customer segmentation
 - Customer tenure
-- Services
+- Contract types
+- Service usage
 - Payment methods
-- Customer charges
-- Churn status
-
-The dataset was explored and prepared for descriptive analysis and visualization.
-
----
-
-## Data Preparation
-
-The data preparation process included:
-
-- Reviewing the dataset structure and variables
-- Checking data completeness and consistency
-- Standardising relevant categorical fields
-- Preparing variables for analysis
-- Grouping customers into meaningful analytical categories
-- Calculating customer counts, churn rates and retention rates
-- Preparing summary tables for PivotTables and visualisations
-
----
-
-## Exploratory & Descriptive Analysis
-
-The analysis examined customer churn across demographic, contractual, tenure, service and payment characteristics.
-
-### Overall Customer Profile
-
-| Metric                   |Result |
-|---|---:|
-| Total Customers           | 7,043 |
-| Churned Customers         | 1,869 |
-| Churn Rate                | 26.54%|
-| Retained Customers        | 5,174 |
-| Retention Rate            | 73.46%|
-
-### Demographic Profile
-
-| Demographic             | Category               | Percentage |
-|---|---|---:|
-| Gender                  | Male                    | 50.48% |
-| Gender                  | Female                  | 49.52% |
-| Senior Citizen          | Non-Senior(0)           | 83.70% |
-| Senior Citizen          | Senior(1)               | 16.30% |
-| Partner                 | No                      | 51.70% |
-| Partner                 | Yes                     | 48.30% |
-| Dependents              | No                      | 70.04% |
-| Dependents              | Yes                     | 29.96% |
-
----
-
-## Business Insights
-
-### 1. Churn is significant
-26.54% of customers have churned, representing 1,869 customers.
-
-### 2. Senior Citizens have the highest demographic churn
-Senior Citizens recorded the highest observed demographic churn rate at 41.68%.
-
-### 3. Contract type is associated with retention
-Month-to-month customers show weaker retention than customers on longer-term contracts.
-
-### 4. Retention generally increases with tenure
-Customers with longer tenure demonstrate stronger retention.
-
-### 5. Electronic Check customers have the highest payment-method churn
-Electronic Check customers recorded the highest observed churn among the payment methods analysed.
-
----
-
-## Business Risks
-
-### 1. Customer Revenue Loss
-The 26.54% churn rate creates a significant risk of continued customer and recurring-revenue loss.
-
-### 2. Concentrated High-Risk Segments
-Higher churn among specific customer segments creates a risk that broad, non-targeted retention strategies may be ineffective.
-
-### 3. Early Customer Attrition
-Lower retention among newer and month-to-month customers creates a risk of losing customers before long-term loyalty develops.
-
----
-
-## Business Opportunities
-
-### 1. Targeted Retention
-Use customer characteristics and churn patterns to identify and proactively engage high-risk customers.
-
-### 2. Contract Conversion
-Create value-based incentives for suitable month-to-month customers to consider longer-term contracts.
-
-### 3. Customer Experience Optimisation
-Investigate service configurations and Electronic Check customers to identify opportunities to improve customer experience and retention.
-
----
-
-## Business Recommendations
-
-1. **Launch targeted retention campaigns** for high-risk customer segments, particularly Senior Citizens.
-
-2. **Strengthen early-tenure engagement** through proactive onboarding, customer check-ins and support.
-
-3. **Encourage suitable month-to-month customers** to consider longer-term contracts through relevant incentives and added value.
-
-4. **Investigate Electronic Check churn** to understand the underlying factors associated with higher churn in this group.
-
-5. **Develop proactive churn monitoring** using customer characteristics such as contract type, tenure, demographics, services and payment method.
-
----
-
-## Dashboard
-
-The project includes an Excel-based customer churn dashboard containing:
-
-- KPI cards
-- Customer base analysis
-- Churn segment analysis
-- Contract and retention analysis
-- Tenure and retention analysis
-- Service feature analysis
-- Payment method analysis
-
-The dashboard was developed using Excel summarisation, PivotTables, PivotCharts and visualisations.
-
----
-
-## Project Deliverables
-
-| Deliverable | Description |
-|---|---|
-## Project Deliverables
-
-| Deliverable | Description |
-|---|---|
-| **Business Analytics Report** | Concise report presenting the executive summary, business problem, business questions, dataset and data preparation, exploratory/descriptive analysis, key insights, business risks, opportunities, recommendations and conclusion. |
-| **Excel Workbook** | Excel-based analysis containing data summarisation, PivotTables, PivotCharts, KPI cards and the final customer churn dashboard used to answer the business questions. |
-| **Business Presentation** | Professional presentation communicating the business context, analytical findings, key insights and actionable recommendations for ABC Communications Ltd. |
-| **Dataset Inspection Report** | Report documenting the initial inspection of the dataset, including its structure, variables, data quality observations and preparation requirements before analysis. |
+- Customer demographics
+- Revenue-related customer characteristics
+- Churn patterns
+- Key performance indicators
+- Retention opportunities
 
 ---
 
 ## Tools Used
 
-- **Microsoft Excel** — Data preparation, analysis, PivotTables, PivotCharts and dashboard development
-- **Microsoft Word** — Business Analytics reports, Dataset Inspection Report
-- **PowerPoint** — Presentation development
-- **GitHub** — Project documentation and portfolio presentation
-- **Google Drive** — Project file storage and sharing
+- Microsoft Excel
+- PivotTables
+- PivotCharts
+- Excel dashboards
+- Data visualisation
+- Business analysis
+- GitHub
 
 ---
 
-## Expected Business Value
+## Business Value
 
-The analysis provides ABC Communications Ltd with a data-driven basis for:
+The analysis is designed to help ABC Communications Ltd better understand customer attrition, identify higher-risk customer segments and develop targeted retention strategies.
 
-- Identifying high-risk customer segments
-- Understanding patterns associated with churn
-- Developing targeted retention strategies
-- Improving customer engagement
-- Supporting proactive churn management
+The ultimate goal is to support more informed decisions around customer retention and reduce avoidable customer churn.
 
 ---
 
-## Project Structure
+## Repository Structure
 
 ```text
 telco-customer-churn-analysis/
 │
+├── business-analytics-report/
+│   └── Business Analytics Report
 │
-├── Business Analytics Report/
-│   └── Business_Analytics_Report.docx
+├── business-presentation/
+│   └── Business Presentation
 │
-├── Excel Workbook/
-│   └── Telco_Customer_Churn_Analysis.md
+├── dataset-inspection-report/
+│   └── Dataset Inspection Report
 │
-├── Business Presentation/
-│   └── Telco_Customer_Churn_Presentation.xlsx
+├── excel-workbook/
+│   └── Excel Customer Churn Analysis Workbook
 │
-├── Dataset Inspection Report/
-│   └── Dataset_Inspection_Report.docx
-│
-└──
+└── README.md
